@@ -21,7 +21,7 @@ public:
     explicit feature(string &name) : name(name) {
     }
 
-    string get_name() {
+    string get_name() const {
         return name;
     }
 
@@ -31,20 +31,15 @@ public:
 };
 
 class TimeSeries {
-    string csv = "/home/s/Advanced programming/Ass2/file.csv";
-    //string csv = "/home/odin/CLionProjects/Ass2/file.csv";
+    //string csv = "/home/odin/CLionProjects/advanced_programming_Ex2/file.csv";
     vector<feature> features;
 
 public:
-
-    vector<float> get_vector_by_feature_name(string feature);
-    //TimeSeries(const char* CSVfileName){
-    //}
-
-    explicit TimeSeries() {
+    TimeSeries(const char* CSVfileName){
+   // explicit TimeSeries() {
         std::ifstream my_file;
         //opens csv file and gathers data
-        my_file.open(csv);
+        my_file.open(CSVfileName);
         string line;
         size_t position;
         //indicator of first line read
@@ -78,7 +73,11 @@ public:
         my_file.close();
     };
 
-    vector<feature> get_features() const;
+    vector<feature> get_features() const {
+        return features;
+    }
+
+    vector<float> get_vector_by_feature_name(string feature) const;
 
     void print_features();
 };

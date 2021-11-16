@@ -6,29 +6,47 @@
 
 #IncludeRegexTransform: 
 
-/home/odin/CLionProjects/anomaly_detection_Ex2/AnomalyDetector.h
+/home/odin/CLionProjects/advanced_programming_Ex2/AnomalyDetector.h
 string
 -
 vector
 -
 timeseries.h
-/home/odin/CLionProjects/anomaly_detection_Ex2/timeseries.h
+/home/odin/CLionProjects/advanced_programming_Ex2/timeseries.h
 math.h
 -
 
-/home/odin/CLionProjects/anomaly_detection_Ex2/SimpleAnomalyDetector.cpp
+/home/odin/CLionProjects/advanced_programming_Ex2/MainTrain.cpp
+iostream
+-
+vector
+-
+AnomalyDetector.h
+/home/odin/CLionProjects/advanced_programming_Ex2/AnomalyDetector.h
 SimpleAnomalyDetector.h
-/home/odin/CLionProjects/anomaly_detection_Ex2/SimpleAnomalyDetector.h
+/home/odin/CLionProjects/advanced_programming_Ex2/SimpleAnomalyDetector.h
+fstream
+-
+stdlib.h
+-
+time.h
+-
+math.h
+-
+
+/home/odin/CLionProjects/advanced_programming_Ex2/SimpleAnomalyDetector.cpp
+SimpleAnomalyDetector.h
+/home/odin/CLionProjects/advanced_programming_Ex2/SimpleAnomalyDetector.h
 anomaly_detection_util.h
-/home/odin/CLionProjects/anomaly_detection_Ex2/anomaly_detection_util.h
+/home/odin/CLionProjects/advanced_programming_Ex2/anomaly_detection_util.h
 cmath
 -
 
-/home/odin/CLionProjects/anomaly_detection_Ex2/SimpleAnomalyDetector.h
+/home/odin/CLionProjects/advanced_programming_Ex2/SimpleAnomalyDetector.h
 anomaly_detection_util.h
-/home/odin/CLionProjects/anomaly_detection_Ex2/anomaly_detection_util.h
+/home/odin/CLionProjects/advanced_programming_Ex2/anomaly_detection_util.h
 AnomalyDetector.h
-/home/odin/CLionProjects/anomaly_detection_Ex2/AnomalyDetector.h
+/home/odin/CLionProjects/advanced_programming_Ex2/AnomalyDetector.h
 vector
 -
 algorithm
@@ -38,23 +56,17 @@ string.h
 math.h
 -
 
-/home/odin/CLionProjects/anomaly_detection_Ex2/anomaly_detection_util.cpp
+/home/odin/CLionProjects/advanced_programming_Ex2/anomaly_detection_util.cpp
 anomaly_detection_util.h
-/home/odin/CLionProjects/anomaly_detection_Ex2/anomaly_detection_util.h
+/home/odin/CLionProjects/advanced_programming_Ex2/anomaly_detection_util.h
 cmath
 -
 
-/home/odin/CLionProjects/anomaly_detection_Ex2/anomaly_detection_util.h
+/home/odin/CLionProjects/advanced_programming_Ex2/anomaly_detection_util.h
 vector
 -
 
-/home/odin/CLionProjects/anomaly_detection_Ex2/timeseries.cpp
-timeseries.h
-/home/odin/CLionProjects/anomaly_detection_Ex2/timeseries.h
-iostream
--
-
-/home/odin/CLionProjects/anomaly_detection_Ex2/timeseries.h
+/home/odin/CLionProjects/advanced_programming_Ex2/timeseries.h
 fstream
 -
 iostream

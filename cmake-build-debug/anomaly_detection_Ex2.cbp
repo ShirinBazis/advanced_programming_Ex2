@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/odin/CLionProjects/anomaly_detection_Ex2/cmake-build-debug"/>
+				<Option working_dir="/home/odin/CLionProjects/advanced_programming_Ex2/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/odin/CLionProjects/anomaly_detection_Ex2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/odin/CLionProjects/anomaly_detection_Ex2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/odin/CLionProjects/anomaly_detection_Ex2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/odin/CLionProjects/anomaly_detection_Ex2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/odin/CLionProjects/advanced_programming_Ex2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/odin/CLionProjects/advanced_programming_Ex2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/odin/CLionProjects/advanced_programming_Ex2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/odin/CLionProjects/advanced_programming_Ex2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/odin/CLionProjects/anomaly_detection_Ex2/cmake-build-debug"/>
+				<Option working_dir="/home/odin/CLionProjects/advanced_programming_Ex2/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/odin/CLionProjects/anomaly_detection_Ex2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/odin/CLionProjects/anomaly_detection_Ex2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/odin/CLionProjects/anomaly_detection_Ex2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/odin/CLionProjects/anomaly_detection_Ex2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/odin/CLionProjects/advanced_programming_Ex2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/odin/CLionProjects/advanced_programming_Ex2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/odin/CLionProjects/advanced_programming_Ex2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/odin/CLionProjects/advanced_programming_Ex2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/odin/CLionProjects/anomaly_detection_Ex2/cmake-build-debug"/>
+				<Option working_dir="/home/odin/CLionProjects/advanced_programming_Ex2/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/odin/CLionProjects/anomaly_detection_Ex2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/odin/CLionProjects/anomaly_detection_Ex2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/odin/CLionProjects/anomaly_detection_Ex2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/odin/CLionProjects/anomaly_detection_Ex2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/odin/CLionProjects/advanced_programming_Ex2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/odin/CLionProjects/advanced_programming_Ex2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/odin/CLionProjects/advanced_programming_Ex2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/odin/CLionProjects/advanced_programming_Ex2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="anomaly_detection_Ex2">
-				<Option output="/home/odin/CLionProjects/anomaly_detection_Ex2/cmake-build-debug/anomaly_detection_Ex2" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/odin/CLionProjects/anomaly_detection_Ex2/cmake-build-debug"/>
+				<Option output="/home/odin/CLionProjects/advanced_programming_Ex2/cmake-build-debug/anomaly_detection_Ex2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/odin/CLionProjects/advanced_programming_Ex2/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -53,15 +53,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/odin/CLionProjects/anomaly_detection_Ex2/cmake-build-debug/Makefile&quot;  VERBOSE=1 anomaly_detection_Ex2"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/odin/CLionProjects/anomaly_detection_Ex2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/odin/CLionProjects/anomaly_detection_Ex2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/odin/CLionProjects/anomaly_detection_Ex2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/odin/CLionProjects/advanced_programming_Ex2/cmake-build-debug/Makefile&quot;  VERBOSE=1 anomaly_detection_Ex2"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/odin/CLionProjects/advanced_programming_Ex2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/odin/CLionProjects/advanced_programming_Ex2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/odin/CLionProjects/advanced_programming_Ex2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="anomaly_detection_Ex2/fast">
-				<Option output="/home/odin/CLionProjects/anomaly_detection_Ex2/cmake-build-debug/anomaly_detection_Ex2" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/odin/CLionProjects/anomaly_detection_Ex2/cmake-build-debug"/>
+				<Option output="/home/odin/CLionProjects/advanced_programming_Ex2/cmake-build-debug/anomaly_detection_Ex2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/odin/CLionProjects/advanced_programming_Ex2/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -75,35 +75,38 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/odin/CLionProjects/anomaly_detection_Ex2/cmake-build-debug/Makefile&quot;  VERBOSE=1 anomaly_detection_Ex2/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/odin/CLionProjects/anomaly_detection_Ex2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/odin/CLionProjects/anomaly_detection_Ex2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/odin/CLionProjects/anomaly_detection_Ex2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/odin/CLionProjects/advanced_programming_Ex2/cmake-build-debug/Makefile&quot;  VERBOSE=1 anomaly_detection_Ex2/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/odin/CLionProjects/advanced_programming_Ex2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/odin/CLionProjects/advanced_programming_Ex2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/odin/CLionProjects/advanced_programming_Ex2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/odin/CLionProjects/anomaly_detection_Ex2/AnomalyDetector.h">
+		<Unit filename="/home/odin/CLionProjects/advanced_programming_Ex2/AnomalyDetector.h">
 			<Option target="anomaly_detection_Ex2"/>
 		</Unit>
-		<Unit filename="/home/odin/CLionProjects/anomaly_detection_Ex2/SimpleAnomalyDetector.cpp">
+		<Unit filename="/home/odin/CLionProjects/advanced_programming_Ex2/MainTrain.cpp">
 			<Option target="anomaly_detection_Ex2"/>
 		</Unit>
-		<Unit filename="/home/odin/CLionProjects/anomaly_detection_Ex2/SimpleAnomalyDetector.h">
+		<Unit filename="/home/odin/CLionProjects/advanced_programming_Ex2/SimpleAnomalyDetector.cpp">
 			<Option target="anomaly_detection_Ex2"/>
 		</Unit>
-		<Unit filename="/home/odin/CLionProjects/anomaly_detection_Ex2/anomaly_detection_util.cpp">
+		<Unit filename="/home/odin/CLionProjects/advanced_programming_Ex2/SimpleAnomalyDetector.h">
 			<Option target="anomaly_detection_Ex2"/>
 		</Unit>
-		<Unit filename="/home/odin/CLionProjects/anomaly_detection_Ex2/anomaly_detection_util.h">
+		<Unit filename="/home/odin/CLionProjects/advanced_programming_Ex2/anomaly_detection_util.cpp">
 			<Option target="anomaly_detection_Ex2"/>
 		</Unit>
-		<Unit filename="/home/odin/CLionProjects/anomaly_detection_Ex2/timeseries.cpp">
+		<Unit filename="/home/odin/CLionProjects/advanced_programming_Ex2/anomaly_detection_util.h">
 			<Option target="anomaly_detection_Ex2"/>
 		</Unit>
-		<Unit filename="/home/odin/CLionProjects/anomaly_detection_Ex2/timeseries.h">
+		<Unit filename="/home/odin/CLionProjects/advanced_programming_Ex2/timeseries.cpp">
 			<Option target="anomaly_detection_Ex2"/>
 		</Unit>
-		<Unit filename="/home/odin/CLionProjects/anomaly_detection_Ex2/CMakeLists.txt">
+		<Unit filename="/home/odin/CLionProjects/advanced_programming_Ex2/timeseries.h">
+			<Option target="anomaly_detection_Ex2"/>
+		</Unit>
+		<Unit filename="/home/odin/CLionProjects/advanced_programming_Ex2/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

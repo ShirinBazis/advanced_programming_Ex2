@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/anomaly_detection_Ex2.dir/MainTrain.cpp.o"
   "CMakeFiles/anomaly_detection_Ex2.dir/SimpleAnomalyDetector.cpp.o"
   "CMakeFiles/anomaly_detection_Ex2.dir/anomaly_detection_util.cpp.o"
   "CMakeFiles/anomaly_detection_Ex2.dir/timeseries.cpp.o"

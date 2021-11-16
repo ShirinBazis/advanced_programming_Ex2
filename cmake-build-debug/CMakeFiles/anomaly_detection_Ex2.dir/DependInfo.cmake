@@ -8,9 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/odin/CLionProjects/anomaly_detection_Ex2/SimpleAnomalyDetector.cpp" "/home/odin/CLionProjects/anomaly_detection_Ex2/cmake-build-debug/CMakeFiles/anomaly_detection_Ex2.dir/SimpleAnomalyDetector.cpp.o"
-  "/home/odin/CLionProjects/anomaly_detection_Ex2/anomaly_detection_util.cpp" "/home/odin/CLionProjects/anomaly_detection_Ex2/cmake-build-debug/CMakeFiles/anomaly_detection_Ex2.dir/anomaly_detection_util.cpp.o"
-  "/home/odin/CLionProjects/anomaly_detection_Ex2/timeseries.cpp" "/home/odin/CLionProjects/anomaly_detection_Ex2/cmake-build-debug/CMakeFiles/anomaly_detection_Ex2.dir/timeseries.cpp.o"
+  "/home/odin/CLionProjects/advanced_programming_Ex2/MainTrain.cpp" "/home/odin/CLionProjects/advanced_programming_Ex2/cmake-build-debug/CMakeFiles/anomaly_detection_Ex2.dir/MainTrain.cpp.o"
+  "/home/odin/CLionProjects/advanced_programming_Ex2/SimpleAnomalyDetector.cpp" "/home/odin/CLionProjects/advanced_programming_Ex2/cmake-build-debug/CMakeFiles/anomaly_detection_Ex2.dir/SimpleAnomalyDetector.cpp.o"
+  "/home/odin/CLionProjects/advanced_programming_Ex2/anomaly_detection_util.cpp" "/home/odin/CLionProjects/advanced_programming_Ex2/cmake-build-debug/CMakeFiles/anomaly_detection_Ex2.dir/anomaly_detection_util.cpp.o"
+  "/home/odin/CLionProjects/advanced_programming_Ex2/timeseries.cpp" "/home/odin/CLionProjects/advanced_programming_Ex2/cmake-build-debug/CMakeFiles/anomaly_detection_Ex2.dir/timeseries.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

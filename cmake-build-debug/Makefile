@@ -57,10 +57,10 @@ RM = /home/odin/CLion-2021.2.3/clion-2021.2.3/bin/cmake/linux/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/odin/CLionProjects/anomaly_detection_Ex2
+CMAKE_SOURCE_DIR = /home/odin/CLionProjects/advanced_programming_Ex2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/odin/CLionProjects/anomaly_detection_Ex2/cmake-build-debug
+CMAKE_BINARY_DIR = /home/odin/CLionProjects/advanced_programming_Ex2/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/odin/CLionProjects/anomaly_detection_Ex2/cmake-build-debug/CMakeFiles /home/odin/CLionProjects/anomaly_detection_Ex2/cmake-build-debug//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/odin/CLionProjects/advanced_programming_Ex2/cmake-build-debug/CMakeFiles /home/odin/CLionProjects/advanced_programming_Ex2/cmake-build-debug//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/odin/CLionProjects/anomaly_detection_Ex2/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/odin/CLionProjects/advanced_programming_Ex2/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -128,6 +128,30 @@ anomaly_detection_Ex2: cmake_check_build_system
 anomaly_detection_Ex2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/anomaly_detection_Ex2.dir/build.make CMakeFiles/anomaly_detection_Ex2.dir/build
 .PHONY : anomaly_detection_Ex2/fast
+
+MainTrain.o: MainTrain.cpp.o
+.PHONY : MainTrain.o
+
+# target to build an object file
+MainTrain.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/anomaly_detection_Ex2.dir/build.make CMakeFiles/anomaly_detection_Ex2.dir/MainTrain.cpp.o
+.PHONY : MainTrain.cpp.o
+
+MainTrain.i: MainTrain.cpp.i
+.PHONY : MainTrain.i
+
+# target to preprocess a source file
+MainTrain.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/anomaly_detection_Ex2.dir/build.make CMakeFiles/anomaly_detection_Ex2.dir/MainTrain.cpp.i
+.PHONY : MainTrain.cpp.i
+
+MainTrain.s: MainTrain.cpp.s
+.PHONY : MainTrain.s
+
+# target to generate assembly for a file
+MainTrain.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/anomaly_detection_Ex2.dir/build.make CMakeFiles/anomaly_detection_Ex2.dir/MainTrain.cpp.s
+.PHONY : MainTrain.cpp.s
 
 SimpleAnomalyDetector.o: SimpleAnomalyDetector.cpp.o
 .PHONY : SimpleAnomalyDetector.o
@@ -210,6 +234,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... anomaly_detection_Ex2"
+	@echo "... MainTrain.o"
+	@echo "... MainTrain.i"
+	@echo "... MainTrain.s"
 	@echo "... SimpleAnomalyDetector.o"
 	@echo "... SimpleAnomalyDetector.i"
 	@echo "... SimpleAnomalyDetector.s"

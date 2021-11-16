@@ -68,10 +68,10 @@ float dev(Point p, Line l) {
     return std::abs(l.f(p.x) - p.y);
 }
 
-Point *make_point_arr(float *a, float *b, int size) {
-    vector<Point> point_vec;
+Point * make_point_arr(float *a, float *b, int size) {
+    vector<Point *> point_vec;
     for (int i = 0; i < size; i++) {
-        point_vec.push_back(Point(a[i], b[i]));
+        point_vec.push_back(new Point(a[i], b[i]));
     }
-    return &point_vec[0];
+    return point_vec[0];
 }
