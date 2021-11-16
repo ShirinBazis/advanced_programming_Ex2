@@ -18,7 +18,7 @@ using std::string;
 struct correlatedFeatures {
     string feature1, feature2;  // names of the correlated features
     Line lin_reg;
-    Point* point_arr;
+    Point *point_arr;
     int arr_size;
     float corrlation;
     float threshold;
@@ -28,7 +28,7 @@ struct correlatedFeatures {
 class SimpleAnomalyDetector : public TimeSeriesAnomalyDetector {
     vector<correlatedFeatures> cf;
 public:
-    SimpleAnomalyDetector()= default;
+    SimpleAnomalyDetector() = default;
 
     virtual ~SimpleAnomalyDetector();
 
@@ -40,7 +40,6 @@ public:
         return cf;
     }
 };
-
 
 
 #endif //ANOMALY_DETECTION_EX2_SIMPLEANOMALYDETECTOR_H
