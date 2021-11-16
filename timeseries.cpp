@@ -21,6 +21,14 @@ vector<feature> TimeSeries::get_features() const {
     return features;
 }
 
+vector<float> TimeSeries::get_vector_by_feature_name(string feature) {
+    for (int i = 0; i < features.size(); i++){
+        //if the current feature is the feature we have accepted
+        if(features[i].get_name().compare(feature) == 0)
+            return *features[i].get_vec();
+    }
+}
+
 int main() {
     TimeSeries t;
     t.print_features();

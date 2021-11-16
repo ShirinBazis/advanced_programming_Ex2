@@ -59,5 +59,26 @@ void SimpleAnomalyDetector::learnNormal(const TimeSeries &ts) {
 
 
 vector<AnomalyReport> SimpleAnomalyDetector::detect(const TimeSeries &ts) {
-    return vector<AnomalyReport>();
+    string feature1, feature2;
+    int size= getNormalModel().size();
+    for(int i=0; i<size; i++) {
+        feature1 = getNormalModel()[i].feature1;
+        feature2 = getNormalModel()[i].feature2;
+        vector<float> vector1 = ts.get_vector_by_feature_name(feature1);
+        vector<float> vector2 = ts.get_vector_by_feature_name(feature2);
+        for (int j=0; j <vector1.size(); j++) {
+              float x= vector1[j];
+              float y= vector2[j];
+              Point p(x, y);
+              Line linear_reg = getNormalModel()[i].lin_reg;
+              float deviation= dev(p, linear_reg);
+              //if the deviation is bigger than the threshold,
+              if(deviation > getNormalModel()[i].threshold){
+                  //change time!!!!!!!!!!!!!
+                  AnomalyReport ap("Error", 0);
+              }
+          }
+        //return vector<AnomalyReport>();
+    }
+    //ts.get_features();
 }

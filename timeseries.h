@@ -31,12 +31,13 @@ public:
 };
 
 class TimeSeries {
-    string csv = "/home/odin/CLionProjects/Ass2/file.csv";
+    string csv = "/home/s/Advanced programming/Ass2/file.csv";
     //string csv = "/home/odin/CLionProjects/Ass2/file.csv";
     vector<feature> features;
 
 public:
 
+    vector<float> get_vector_by_feature_name(string feature);
     //TimeSeries(const char* CSVfileName){
     //}
 
