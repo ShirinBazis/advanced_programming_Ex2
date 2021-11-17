@@ -5,7 +5,7 @@
 #include "anomaly_detection_util.h"
 
 #define MIN_CORRLATION 0.9
-#define SCALE 1.1
+#define SCALE 1.15
 
 correlatedFeatures create_correlated_features(string feature1, string feature2, float corrlation, Line lin_reg,
                                               vector<Point *> point_vec, int arr_size) {
