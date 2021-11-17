@@ -59,7 +59,8 @@ float dev(Point p, Point **points, int size) {
 }
 
 float dev(Point p, Line l) {
-    return std::abs(l.f(p.x) - p.y);
+    return std::fabs(l.f(p.x) - p.y);
+
 }
 
 Point *make_point_arr(float *a, float *b, int size) {

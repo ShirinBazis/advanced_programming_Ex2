@@ -4,7 +4,7 @@
 #ifndef ANOMALY_DETECTION_EX2_ANOMALY_DETECTION_UTIL_H
 #define ANOMALY_DETECTION_EX2_ANOMALY_DETECTION_UTIL_H
 #include <vector>
-#include <math.h>
+#include <cmath>
 
 using std::vector;
 

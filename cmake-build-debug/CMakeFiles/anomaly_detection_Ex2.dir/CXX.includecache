@@ -44,10 +44,14 @@ algorithm
 string.h
 -
 
+/home/odin/CLionProjects/advanced_programming_Ex2/anomaly_detection_util.cpp
+anomaly_detection_util.h
+/home/odin/CLionProjects/advanced_programming_Ex2/anomaly_detection_util.h
+
 /home/odin/CLionProjects/advanced_programming_Ex2/anomaly_detection_util.h
 vector
 -
-math.h
+cmath
 -
 
 /home/odin/CLionProjects/advanced_programming_Ex2/timeseries.h
@@ -55,8 +59,8 @@ fstream
 -
 iostream
 -
-vector
--
 iosfwd
+-
+vector
 -
 
