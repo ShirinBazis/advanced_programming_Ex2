@@ -37,7 +37,7 @@ class TimeSeries {
     string file_name;
     vector<feature> features;
 public:
-    explicit TimeSeries(const char *CSVfileName) : file_name(CSVfileName){
+    explicit TimeSeries(const char *CSVfileName) : file_name(CSVfileName) {
         init_class();
     }
 
@@ -49,6 +49,5 @@ public:
 
     vector<float> get_vector_by_feature_name(const string &feature) const;
 };
-
 
 #endif //ANOMALY_DETECTION_EX2_TIMESERIES_H

@@ -20,7 +20,6 @@ struct correlatedFeatures {
     float threshold;
 };
 
-
 class SimpleAnomalyDetector : public TimeSeriesAnomalyDetector {
     vector<correlatedFeatures> cf;
 public:
@@ -36,6 +35,5 @@ public:
         return cf;
     }
 };
-
 
 #endif //ANOMALY_DETECTION_EX2_SIMPLEANOMALYDETECTOR_H

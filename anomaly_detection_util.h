@@ -3,6 +3,7 @@
 
 #ifndef ANOMALY_DETECTION_EX2_ANOMALY_DETECTION_UTIL_H
 #define ANOMALY_DETECTION_EX2_ANOMALY_DETECTION_UTIL_H
+
 #include <vector>
 #include <cmath>
 
@@ -33,8 +34,8 @@ public:
 class Point {
 public:
     float x, y;
-    Point(float x, float y) : x(x), y(y) {}
 
+    Point(float x, float y) : x(x), y(y) {}
 };
 
 // performs a linear regression and return s the line equation
@@ -45,8 +46,5 @@ float dev(Point p, Point **points, int size);
 
 // returns the deviation between point p and the line
 float dev(Point p, Line l);
-
-Point* make_point_arr(float* a,float *b, int size);
-
 
 #endif //ANOMALY_DETECTION_EX2_ANOMALY_DETECTION_UTIL_H

@@ -34,7 +34,6 @@ float cov(float *x, float *y, int size) {
 }
 
 float pearson(float *x, float *y, int size) {
-    //return cov(x,y,size)/(sqrt(var(x,size))*sqrt(var(y,size)));
     float cov_x_y, sigma_x, sigma_y;
     cov_x_y = cov(x, y, size);
     sigma_x = sqrtf(var(x, size));
@@ -60,13 +59,4 @@ float dev(Point p, Point **points, int size) {
 
 float dev(Point p, Line l) {
     return std::fabs(l.f(p.x) - p.y);
-
-}
-
-Point *make_point_arr(float *a, float *b, int size) {
-    vector<Point *> *point_vec = new std::vector<Point *>;
-    for (int i = 0; i < size; i++) {
-        (*point_vec).push_back(new Point(a[i], b[i]));
-    }
-    return (*point_vec)[0];
 }
