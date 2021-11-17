@@ -1,14 +1,13 @@
-//
-// Created by odin on 15/11/2021.
-//
+//Leonardo Rodin 207377151
+//Shirin Bazis 211492970
 
 #ifndef ANOMALY_DETECTION_EX2_ANOMALYDETECTOR_H
 #define ANOMALY_DETECTION_EX2_ANOMALYDETECTOR_H
 
-#include <string>
-#include <vector>
 #include "timeseries.h"
+#include <string>
 #include <math.h>
+
 using std::string;
 using std::vector;
 

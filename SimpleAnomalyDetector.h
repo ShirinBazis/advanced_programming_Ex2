@@ -1,24 +1,20 @@
-//
-// Created by odin on 15/11/2021.
-//
+//Leonardo Rodin 207377151
+//Shirin Bazis 211492970
 
 #ifndef ANOMALY_DETECTION_EX2_SIMPLEANOMALYDETECTOR_H
 #define ANOMALY_DETECTION_EX2_SIMPLEANOMALYDETECTOR_H
 
 #include "anomaly_detection_util.h"
 #include "AnomalyDetector.h"
-#include <vector>
 #include <algorithm>
 #include <string.h>
-#include <math.h>
 
-using std::vector;
 using std::string;
 
 struct correlatedFeatures {
     string feature1, feature2;  // names of the correlated features
     Line lin_reg;
-    Point *point_arr;
+    vector<Point *> point_vec;
     int arr_size;
     float corrlation;
     float threshold;

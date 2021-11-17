@@ -1,10 +1,11 @@
-//
-// Created by odin on 15/11/2021.
-//
+//Leonardo Rodin 207377151
+//Shirin Bazis 211492970
 
 #ifndef ANOMALY_DETECTION_EX2_ANOMALY_DETECTION_UTIL_H
 #define ANOMALY_DETECTION_EX2_ANOMALY_DETECTION_UTIL_H
 #include <vector>
+#include <math.h>
+
 using std::vector;
 
 // returns the variance of X and Y
@@ -46,5 +47,6 @@ float dev(Point p, Point **points, int size);
 float dev(Point p, Line l);
 
 Point* make_point_arr(float* a,float *b, int size);
+
 
 #endif //ANOMALY_DETECTION_EX2_ANOMALY_DETECTION_UTIL_H

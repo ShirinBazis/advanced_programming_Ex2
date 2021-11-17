@@ -1,11 +1,9 @@
-//
-// Created by leonardo on 19/10/2021.
-//
+//Leonardo Rodin 207377151
+//Shirin Bazis 211492970
 
 #include "anomaly_detection_util.h"
-#include <cmath>
 
-float avg(const float *x, int size) {
+float avg(float *x, float size) {
     float sum = 0;
     for (int i = 0; i < size; ++i) {
         sum += x[i];
@@ -14,30 +12,29 @@ float avg(const float *x, int size) {
 }
 
 float var(float *x, int size) {
-    float *x_squared = new float[size];
+    float x_squared[size];
     for (int i = 0; i < size; ++i) {
         x_squared[i] = x[i] * x[i];
     }
     float mu = avg(x, size);
     float avg_x_squared = avg(x_squared, size);
-    delete[] x_squared;
     return avg_x_squared - mu * mu;
 }
 
 float cov(float *x, float *y, int size) {
-    float *xy = new float[size];
-    float e_xy, e_x, e_y;
+    float xy[size];
+    float avg_xy, avg_x, avg_y;
     for (int i = 0; i < size; ++i) {
         xy[i] = x[i] * y[i];
     }
-    e_xy = avg(xy, size);
-    e_x = avg(x, size);
-    e_y = avg(y, size);
-    delete[] xy;
-    return e_xy - e_x * e_y;
+    avg_xy = avg(xy, size);
+    avg_x = avg(x, size);
+    avg_y = avg(y, size);
+    return avg_xy - avg_x * avg_y;
 }
 
 float pearson(float *x, float *y, int size) {
+    //return cov(x,y,size)/(sqrt(var(x,size))*sqrt(var(y,size)));
     float cov_x_y, sigma_x, sigma_y;
     cov_x_y = cov(x, y, size);
     sigma_x = sqrtf(var(x, size));
@@ -46,17 +43,14 @@ float pearson(float *x, float *y, int size) {
 }
 
 Line linear_reg(Point **points, int size) {
-    float *x_coordinate = new float[size];
-    float *y_coordinate = new float[size];
-    for (int i = 0; i < size; ++i) {
-        x_coordinate[i] = points[i]->x;
-        y_coordinate[i] = points[i]->y;
+    float x[size], y[size];
+    for (int i = 0; i < size; i++) {
+        x[i] = points[i]->x;
+        y[i] = points[i]->y;
     }
-    float a = cov(x_coordinate, y_coordinate, size) / var(x_coordinate, size);
-    float b = avg(y_coordinate, size) - a * avg(x_coordinate, size);
-    delete[]x_coordinate;
-    delete[]y_coordinate;
-    return {a, b};
+    float a = cov(x, y, size) / var(x, size);
+    float b = avg(y, size) - a * (avg(x, size));
+    return Line(a, b);
 }
 
 float dev(Point p, Point **points, int size) {
@@ -68,8 +62,8 @@ float dev(Point p, Line l) {
     return std::abs(l.f(p.x) - p.y);
 }
 
-Point * make_point_arr(float *a, float *b, int size) {
-    vector<Point *>* point_vec = new std::vector<Point *>;
+Point *make_point_arr(float *a, float *b, int size) {
+    vector<Point *> *point_vec = new std::vector<Point *>;
     for (int i = 0; i < size; i++) {
         (*point_vec).push_back(new Point(a[i], b[i]));
     }
